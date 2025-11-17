@@ -1,0 +1,144 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e3f0ff 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff7f50;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Custom table styles */
+table.table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+thead.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+tbody tr {
+  transition: background 0.2s;
+}
+tbody tr:hover {
+  background: #e3f0ff;
+}
+
+/* Custom button styles */
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-success {
+  background: linear-gradient(90deg, #28a745 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-info {
+  background: linear-gradient(90deg, #17a2b8 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffc107 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #dc3545 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Custom heading styles */
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Custom navigation styles */
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.nav-link.active {
+  color: #ff7f50 !important;
+}
+
+/* Card styles */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.card-title {
+  color: #007bff;
+}
+.card-text {
+  color: #333;
+}
+
+/* Modal styles */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
